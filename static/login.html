@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AI Smart Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-card">
+            <div class="brand">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
+                    <polyline points="10 9 9 9 8 9" />
+                </svg>
+                SmartNotes
+            </div>
+            <h2>Welcome Back</h2>
+            <p class="subtitle">Please sign in to continue</p>
+
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+
+                <div id="login-error" class="error-message" style="display: none;"></div>
+
+                <button type="submit" class="login-btn" id="login-btn">Sign In</button>
+            </form>
+
+            <div style="margin-top: 20px; font-size: 0.9rem;">
+                <p style="color: #94a3b8;">Don't have an account? <a href="/signup"
+                        style="color: var(--accent-color); text-decoration: none;">Sign Up</a></p>
+                <p style="margin-top: 10px;"><a href="forgot.html"
+                        style="color: var(--accent-color); text-decoration: none;">Forgot Password?</a></p>
+            </div>
+        </div>
+    </div>
+    <div id="creator-details-login" style="margin-top: 20px; font-size: 0.8rem; color: #64748b; text-align: center;">
+        <!-- Creator details injected here -->
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
