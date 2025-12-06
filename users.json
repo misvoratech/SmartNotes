@@ -1,0 +1,11 @@
+{
+  "admin": "scrypt:32768:8:1$7gYsrCXEg5lFp2Up$d23a9327f44c495d9dfa8107f70250216b21849125fb4d66beacfe15cb295667a3e6431135a2bbbed7245156193b91fbda7a8e6536d8fa86313265640d3da9a2",
+  "miis.haab_": {
+    "password": "scrypt:32768:8:1$DYHquSNhjmPQimh4$a6d5a62ffe18c3627676d9f45c5ab9800509b9318d63e238d873313d3aa2e2ca509cc523c04c065cf6f450e75a726122a138093d60c4267ef48cac8764a101e3",
+    "phone": ""
+  },
+  "bbb": {
+    "password": "scrypt:32768:8:1$xz644XYEuEMgUam8$978f344b3aecdc2103d44595272ca62f45ce5c49ba46219e4145260d153d7c3c1e460e983bc5c15c70b6fd735381f7419ac77fbc6ee2e4dcc656af3bb3bb906e",
+    "phone": ""
+  }
+}
